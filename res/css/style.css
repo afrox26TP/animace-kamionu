@@ -1,0 +1,69 @@
+#background, #stromy, #kamion, #kamion2, #labut, #labut2, #road{position: absolute;  ; 
+}
+
+
+#background{width: 1900px} 
+#stromy{
+    height: 1000px;
+    width: auto;
+top: 100px;
+opacity: 0;
+position: absolute;
+    transition: left 10s ;
+    left: 50px;
+  
+}
+
+#stromy2{
+    height: 1000px;
+    width: auto;
+top: 100px;
+opacity: 0;
+position: absolute;
+    transition: left 10s ;
+    left: 600px;
+}
+#sklad{
+    height: 950px;
+    width: auto;
+top: 140px;
+opacity: 0;
+position: absolute;
+    transition: left 10s ;
+    left: 1550px;
+}
+#kamion{
+    left: -800px;
+    height: 300px;
+    top: 680px;
+    transition: 2s;
+    z-index: 10;
+    opacity: 0;
+    transition: 3s;
+    
+    
+}
+
+#labut{
+    transition: 2s;
+    height: 150px;
+    width: 150px;
+    left: 680px;
+    top: -500px;
+    opacity: 0;
+}
+#labut2{
+    transition: 4s;
+    height: 150px;
+    width: 150px;
+    left: 680px;
+    top: 840px;
+    opacity: 0;
+}
+
+#road{
+   width: 1500px;
+   height: 20px;
+    top: 970px;
+    
+}
